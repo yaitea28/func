@@ -1,0 +1,13 @@
+<%= link_to 'Post form', records_new_path, method: :get %>
+<div class="card">
+  <% @records.each do |r| %>
+    <div class="card_body">
+      <div class="card_Url">
+        <%= r.Url %>
+      </div>
+      <div class="card_summary">
+        <%= r.summary %>
+      </div>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,14 @@
+<div class="contents">
+  <%= link_to 'Data list', records_path, method: :get %>
+  <%= form_with model: @record do |f| %>
+    <div class="field">
+      <%= f.text_area :Url, placeholder: "URL" %>
+    </div>
+    <div class="field">
+      <%= f.text_area :summary, placeholder: "概要", rows: "30" %>
+    </div>
+    <div class="field">
+      <%= f.submit %>
+    </div>
+  <% end %>
+</div>

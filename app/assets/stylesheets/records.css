@@ -1,0 +1,9 @@
+.card_body {
+  border: 1px solid;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.card_Url {
+  color:gray
+}
